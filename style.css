@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.header {
+    height: 10vh;
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+}
+
+.sidebar {
+    display: grid;
+    grid-row: 1/4;
+}
+ 
+.main-view {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.project {
+    grid-row: 1/3;
+}
+
+.header-cat {
+    height: 5vh;
+}
+
+.card-wrap {
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.announcements {
+    display: grid;
+}
+
+.trending {
+    display: grid;
+}
